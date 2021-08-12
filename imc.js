@@ -50,6 +50,8 @@ return nivel
 
 //Execução do código--------------------------------------
 
+
+
 let indice = 0
 let pessoa = pessoas[indice]
 let massa = massas[indice]
@@ -63,10 +65,29 @@ console.log("Nome: " + pessoa)
 console.log("Idade: " + idade)
 console.log("Peso: " + massa)
 console.log("Altura: " + altura)
-console.log("IMC: " + IMC)
+console.log("IMC: " + IMC.toFixed(2)
 console.log("Nível: " + niveis[nivel])
 
+/*for (let indice = 0; indice < pessoas.length; indice++){
 
-console.log (niveis[nivel])
+let pessoa = pessoas[indice]
+let massa = massas[indice]
+let altura = alturas[indice]
+let idade = idades[indice]
+
+let IMC = calcularIMC(massa, altura)
+let nivel = definirNivelDoIMC(IMC)
+
+console.log("Nome: " + pessoa)
+console.log("Peso: " + massa)
+console.log("Altura: " + altura)
+console.log("Idade: " + idade)
+console.log("IMC: " + IMC.toFixed(2))
+console.log("Nível do IMC: " + niveis[nivel])
+console.log("")
+}
+*/
+
+// ou calculo desse modo para varrer todos os nomes. 
 
 //--------------------------------------------------------
