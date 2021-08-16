@@ -1,3 +1,5 @@
+//Em um loop de 0 a 50, mostre 10x o nome "stt", 20x o nome "tunning" e 20x o nome "developer":
+
 let stt = 0
 
 while (stt < 10){
