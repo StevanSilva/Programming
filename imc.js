@@ -1,3 +1,5 @@
+//Calcular IMC
+
 let niveis = ["muito abaixo do peso",
               "abaixo do peso",
               "peso normal",
