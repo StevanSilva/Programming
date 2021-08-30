@@ -4,21 +4,35 @@ compradas pelo menos 12. Escreva um programa que leia o número de maçãs compr
 escreva o custo total da compra.
 */
 
-let mac = 7
-let numMacCompradas
+const mac = 7
 let custoTotalCompra = mac 
 
 if (mac <= 6)
 { 
   custoTotalCompra = mac * 1.30
-  console.log("Custo Total da Compra: " + custoTotalCompra.toFixed(2))
+  
 }
+
+console.log("Custo Total da Compra: " + custoTotalCompra.toFixed(2))
 
 else
 {
   custoTotalCompra = mac * 1.00
-  console.log("Custo Total da Compra: " + custoTotalCompra.toFixed(2))
+  
 }
 
+console.log("Custo Total da Compra: " + custoTotalCompra.toFixed(2))
 
 
+/* Pyro resolução.
+const mac = 7
+let custoTotalCompra = mac 
+
+if (mac <= 6) { 
+  custoTotalCompra = mac * 1.30
+} else {
+  custoTotalCompra = mac * 1.00
+}
+
+console.log(`Custo Total da Compra: R$ ${custoTotalCompra.toFixed(2)}`)
+*/
