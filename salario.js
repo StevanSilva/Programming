@@ -9,7 +9,7 @@ let salarioPorHora
 let salario 
 let valorHoraExtra
 let qtdHorasExtras
-let salarioExtras
+let salarioExtras = 0
 
 if (numeroHorasTrabalhadasUmMes <= 160)
 {
@@ -21,7 +21,7 @@ else
 {
 salario = 160 * salarioPorHora;
 qtdHorasExtras = numeroHorasTrabalhadasUmMes - 160;
-valorHoraExtra = salarioPorHora + (salarioPorHora * 50)/100;
+valorHoraExtra = salarioPorHora * 1.5
 salarioExtras = valorHoraExtra * qtdHorasExtras;
 }
 
